@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [12.0.0-rc.1](https://github.com/ratatui/ratatui-image/compare/v12.0.0-rc.0...v12.0.0-rc.1) - 2026-10-03
+
+### Fixed
+
+- fix tmux passthrough escapes for sliced sixel ([#192](https://github.com/ratatui/ratatui-image/pull/192))
+
+### Other
+
+- sliced sixel: <esc>P was already found once, re-use it.
+- sixel tmux manually replace the two specific escapes
+
 ## [11.1.0](https://github.com/ratatui/ratatui-image/compare/v11.0.8...v11.1.0) - 2026-09-16
 
 ### Added
